@@ -11,6 +11,8 @@
 <body>
   @include('include.header')
 
+  @include('include.messages')
+
   @if (Request::is('/'))
     @include('include.hero')
   @endif
