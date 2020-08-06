@@ -9,9 +9,11 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 </head>
 <body>
-  @include('include.header')
-
-  @include('include.messages')
+  <div class="container mt-5">
+    <div class="row">
+        @include('include.header')
+      </div>
+  </div>
 
   @if (Request::is('/'))
     @include('include.hero')
@@ -20,6 +22,7 @@
 <div class="container mt-5">
   <div class="row">
     <div class="col-8">
+        @include('include.messages')
         @yield('content')
     </div>
     <div class="col-4">

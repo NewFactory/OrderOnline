@@ -21,7 +21,8 @@
 
   </div>
 
-  <button type="submit" class="btn btn-success">Submit</button>
+  <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
 
 </form>
+
 @endsection
