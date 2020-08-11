@@ -15,6 +15,7 @@
             <a class="nav-link" href="{{ route('contact') }}">Contact</a>
           </li>
         </ul>
-        <a class="btn btn-outline-primary" href="{{ route('dashboard') }}">Dashboard </a>
+        <!-- <a class="btn btn-outline-primary" href="{{ route('dashboard') }}">Dashboard </a>
+        <a class="btn btn-outline-primary" href="{{ route('order-data') }}">Find </a> -->
       </div>
     </nav>

@@ -27,6 +27,8 @@ Route::get('/contact', function () {
 
 Route::post('/contact/submit', 'ContactController@submit')->name('contact-form');
 
+Route::get('/dashboard/findorder', 'OrderController@findorder')->name('order-data');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
