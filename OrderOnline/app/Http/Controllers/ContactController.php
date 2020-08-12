@@ -22,7 +22,7 @@ class ContactController extends Controller {
 
       $contact->save();
 
-      return redirect()->route('home')->with('success','Send');
+      return redirect()->route('home')->with('success','Sent');
 
     }
 }

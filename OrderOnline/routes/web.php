@@ -13,22 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-})->name('home');
+Route::get('/', function () {return view('home');})->name('home');
 
-Route::get('/about', function () {
-    return view('about');
-})->name('about');
+Route::get('/about', function () {return view('about');})->name('about');
 
-Route::get('/contact', function () {
-    return view('contact');
-})->name('contact');
+Route::get('/contact', function () {return view('contact');})->name('contact');
 
 Route::post('/contact/submit', 'ContactController@submit')->name('contact-form');
 
 Route::get('/dashboard/findorder', 'OrderController@findorder')->name('order-data');
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
+Route::get('/dashboard', function () {return view('dashboard');})->name('dashboard');

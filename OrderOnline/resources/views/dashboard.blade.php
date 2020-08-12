@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
-@section('title')Dashboard @endsection
+@section('title')Dashboard-FindOrder @endsection
 
 
 @section('content')
 
-<h1>Dashboard</h1>
+<h1>Information</h1>
 
 @foreach ($data as $el)
 
